@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form Exercise</title>
+</head>
+<body>
+	<h1>Register</h1>
+	<form>
+		<label for="first">First Name:</label>
+		<input type="text" name="first" id="first" placeholder="John" required>
+		<label for="last">First Name:</label>
+		<input type="text" name="last" id="last" placeholder="Smith" required><br>
+		<label for="male">Male</label>
+		<input type="radio" name="gender" id="male">
+		<label for="female">Female</label>
+		<input type="radio" name="gender" id="female">
+		<label for="other">Other</label>
+		<input type="radio" name="gender" id="other"><br>
+		<label for="email">Email:</label>
+		<input type="email" name="email" id="email" required>
+		<label id="password">Password:</label>
+		<input type="password" name="password" id="password" pattern=".{5,10}" required title="5 to 10 characters"><br>
+		<label for="birthday">Birthday:</label>
+		<select required id="birthday">
+			<option value="" disabled selected hidden>Month</option>
+			<option>January</option>
+			<option>February</option>
+			<option>March</option>
+			<option>April</option>
+			<option>May</option>
+			<option>June</option>
+			<option>July</option>
+			<option>August</option>
+			<option>September</option>
+			<option>October</option>
+			<option>November</option>
+			<option>December</option>
+		</select>
+		<select required id="birthday">
+			<option value="" disabled selected hidden>Day</option>
+			<option>1</option>
+			<option>2</option>
+			<option>3</option>
+			<option>4</option>
+		</select>
+		<select required id="birthday">
+			<option value="" disabled selected hidden>Year</option>
+			<option>1997</option>
+			<option>1998</option>
+			<option>1999</option>
+			<option>2000</option>
+		</select><br>
+		<label id="checkbox">I agree to the terms and conditions</label>
+		<input type="checkbox" name="checkbox" id="checkbox" required><br>
+		<input type="Submit">
+	</form>
+</body>
+</html>
