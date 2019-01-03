@@ -1,0 +1,18 @@
+h1{
+	color: red;
+}
+
+li{
+	color: green;
+}
+
+h4{
+	color: #0FFFF0;
+	background: rgb(255, 100, 80);
+}
+
+body{
+	background: url(https://cdn.pixabay.com/photo/2016/06/17/06/04/background-1462755_1280.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
